@@ -1,0 +1,10 @@
+
+menu "Startup"
+
+config STARTUP_DEMO
+	bool "STARTUP_DEMO_TYPE"
+	default y
+	help
+	  Demo option.
+
+endmenu

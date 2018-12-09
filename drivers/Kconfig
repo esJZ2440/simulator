@@ -1,0 +1,10 @@
+
+menu "Drivers"
+
+config DRIVER_DEMO
+	bool "DRIVER_DEMO_TYPE"
+	default y
+	help
+	  Demo option.
+
+endmenu

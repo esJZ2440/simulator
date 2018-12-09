@@ -1,0 +1,10 @@
+
+menu "User"
+
+config USER_DEMO
+	bool "USER_DEMO_TYPE"
+	default y
+	help
+	  Demo option.
+
+endmenu

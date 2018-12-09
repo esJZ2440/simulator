@@ -23,5 +23,9 @@ s3c2440a.bin: $(objs)
 %.o: %.s
 	${CC} $(CPPFLAGS) $(CFLAGS) -c -o $@ $<
 
+menuconfig:
+	mkdir -p include
+	scripts/kconfig/mconf Kconfig
+
 clean:
 	rm -f *.o *.bin *.elf *.dis

@@ -1,0 +1,16 @@
+#
+# For a description of the syntax of this configuration file,
+# see docs/Kconfig-language.txt.
+#
+
+mainmenu "Configuration"
+
+config MAIN_DEMO
+	bool "MAIN_DEMO_TYPE"
+	default y
+	help
+	  Demo option.
+
+source startup/Kconfig
+source drivers/Kconfig
+source user/Kconfig
