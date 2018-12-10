@@ -1,4 +1,18 @@
+#
+# 忽略编译产生的中间文件
+#
 *.o
 *.elf
 *.bin
 *.dis
+
+#
+# 忽略所有隐藏文件 .gitignore 文件除外
+#
+.*
+!.gitignore
+
+#
+# 忽略 make menuconfig 自动生成的配置文件
+#
+include/config.h
