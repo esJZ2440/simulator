@@ -28,4 +28,4 @@ menuconfig:
 	scripts/kconfig/mconf Kconfig
 
 clean:
-	rm -f *.o *.bin *.elf *.dis
+	rm -f *.o *.bin *.elf *.dis .config*
